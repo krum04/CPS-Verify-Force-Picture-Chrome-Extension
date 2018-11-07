@@ -1,0 +1,10 @@
+{
+  "name": "SPH",
+  "version": "2.0",
+  "description": "Hide 'Show Picture' inside Verify",
+  "content_scripts" : [{
+    "matches": ["https://verify.cps.k12.il.us/VerifyNet201/DoorSwipe.aspx"],
+    "js" : ["/content_script.js" ]
+  }],
+  "manifest_version": 2
+}
